@@ -245,9 +245,6 @@ def handle_bgmi(message):
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
             response = "Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
-    else:
-        response = "You Are Not Authorized To Use This Command."
-
     bot.reply_to(message, response)
 
 
